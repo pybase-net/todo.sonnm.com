@@ -3,7 +3,8 @@
 ## Project Overview
 
 - Name: Simple Todolist application
-- Description: I need a tools to manage things that i have to read/watch/learn/write/do daily and also i wanna keep track that can i reach my goals my spending time on those daily tasks.
+- Description: I need a tools to manage things that i have to read/watch/learn/write/do daily and also i wanna keep
+  track that can i reach my goals my spending time on those daily tasks.
 
 ## Goals
 
@@ -23,7 +24,7 @@
 8. Manage TodoList - CRUD Task
 9. Statistic - Pending/InProgress/Completed Tasks of Category/Tag Report by date, date-ranges ( in table view )
 10. Statistic - Pending/InProgress/Completed Tasks of Category/Tag by days/weeks/months/years ( in chart view )
-11. Statistic - Weekly reports 
+11. Statistic - Weekly reports
 12. Notification - Daily tasks/Late tasks/New week tasks/No tasks warning
 13. Notification - Settings to receive notification by in app/email
 
@@ -58,4 +59,10 @@ In general, the system has 3 parts:
 
 ### Database structure
 
+## Development
 
+- [Mono repo with lerna](https://lerna.js.org/docs/getting-started)
+
+```sh
+npx lerna run build
+```

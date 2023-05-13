@@ -7,13 +7,22 @@
 ```bash
 cp .env.sample .env
 source ./venv/bin/activate
-flask run --port=1337
+flask run --host=localhost --port=1337 --debug
 ```
 
 2. Deactivate
 
 ```sh
 deactive
+```
+
+3. Styles
+
+```sh
+# Development
+npm run serve
+# Production
+npm run build
 ```
 
 ## Materials

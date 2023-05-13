@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "api",
+    "app"
+  ],
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lerna": "^6.6.2"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}

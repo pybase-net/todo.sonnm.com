@@ -160,3 +160,7 @@ cython_debug/
 #.idea/
 
 .env
+# node modules
+node_modules/
+# css local
+static/css/*.development.css
