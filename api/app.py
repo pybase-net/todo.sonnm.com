@@ -1,8 +1,10 @@
 import flask
 from flask import Flask, url_for
-from environment import VERSION, NODE_ENV
+from flask_sqlalchemy import SQLAlchemy
+from environment import VERSION, NODE_ENV, DATABASE_URI
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URI
 
 
 @app.context_processor
